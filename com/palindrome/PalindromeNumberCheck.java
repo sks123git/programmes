@@ -1,5 +1,7 @@
 package com.palindrome;
 
+import java.util.Scanner;
+
 public class PalindromeNumberCheck {
 
     public boolean palindromeCheck(int val){
@@ -21,7 +23,10 @@ public class PalindromeNumberCheck {
 
     }
     public static void main(String[] args) {
+        Scanner value = new Scanner(System.in);
+        System.out.println("Enter a number to check palindrome: ");
+        int num = value.nextInt();
         PalindromeNumberCheck check = new PalindromeNumberCheck();
-        boolean bool = check.palindromeCheck(23);
+        check.palindromeCheck(num);
     }
 }
