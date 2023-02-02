@@ -10,7 +10,6 @@ public class TwoSum {
                 if (arr[i] + arr[j] == target) {//Adding and checking the condition
                     twoNumbers[0] = i;
                     twoNumbers[1] = j;
-
                 }
                 }
             }
