@@ -1,6 +1,6 @@
 package com.employee;
 
-public class EmpWageBuilderUC2 {
+public class EmployeeWagePerDay {
     public static void main(String[] args) {
         int IS_FULL_TIME = 1;//constants
         int EMP_RATE_PER_HOUR = 20;
@@ -8,7 +8,7 @@ public class EmpWageBuilderUC2 {
         int empWage = 0;
         double empCheck = Math.floor((Math.random() * 10) % 2);
         System.out.println(empCheck);
-        if(IS_FULL_TIME==empCheck){
+        if(IS_FULL_TIME==empCheck){ //checking if full time or not
             empHrs = 8;
         }else {
             empHrs = 0;
